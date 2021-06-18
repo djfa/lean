@@ -19,6 +19,6 @@ sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 #r4a uncomment
-#cd ..
-#mv -vf mt7621_xiaomi_mir3g-v2.dts openwrt/target/linux/ramips/dts/mt7621_xiaomi_mir3g-v2.dts
-#mv -vf mt7621.mk openwrt/target/linux/ramips/image/mt7621.mk
+cd ..
+mv -vf mt7621_xiaomi_mir3g-v2.dts openwrt/target/linux/ramips/dts/mt7621_xiaomi_mir3g-v2.dts
+mv -vf mt7621.mk openwrt/target/linux/ramips/image/mt7621.mk
